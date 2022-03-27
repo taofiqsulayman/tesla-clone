@@ -16,7 +16,7 @@ function Header() {
   return (
     <Container>
 
-      <a>
+      <a href="#">
         <img src= "/images/logo.svg" alt="" />
       </a>
 
@@ -61,6 +61,7 @@ const Container = styled.div`
   min-height: 60px;
   position: fixed;
   display: flex;
+  background-color: whitesmoke;
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;

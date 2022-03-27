@@ -5,7 +5,7 @@ import Section from './Section'
 
 function Home() {
   return (
-    <container>
+    <Container>
       <Section 
         title="Model S"
         description="Order Online for Touchless Delivery"
@@ -66,7 +66,7 @@ function Home() {
       {/* <Section />
       <Section />
       <Section /> */}
-    </container>
+    </Container>
   )
 }
 
